@@ -6,7 +6,8 @@ import { HiOutlineSun } from "react-icons/hi";
 import { TbSunset2 } from "react-icons/tb";
 import { AiOutlineArrowDown, AiOutlineArrowUp } from "react-icons/ai";
 
-function TemperatureAndPlace() {
+function TemperatureAndPlace({ res }) {
+    console.log(res);
     return (
         <div>
             <div className="flex items-center justify-center py-6 text-xl text-cyan-300">
